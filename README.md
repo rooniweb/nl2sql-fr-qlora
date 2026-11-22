@@ -1,5 +1,7 @@
 # NL2SQL-FR — Fine-tuning QLoRA d'un LLM open source pour le NL-to-SQL en français
 
+[![Ouvrir dans Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/rooniweb/nl2sql-fr-qlora/blob/main/notebooks/finetune_qlora.ipynb) ![tests](https://github.com/rooniweb/nl2sql-fr-qlora/actions/workflows/tests.yml/badge.svg)
+
 Un petit modèle open source (**Qwen2.5-Coder-1.5B-Instruct**) affiné en **QLoRA** pour traduire des questions métier posées en français en requêtes SQL, sur le SI commercial d'un opérateur télécom **fictif**. L'objectif : mesurer ce que le fine-tuning apporte, par rapport au même modèle sans affinage, sur des formulations qu'il n'a jamais vues.
 
 > Toutes les données sont **100 % fictives** et générées par le code du dépôt.
